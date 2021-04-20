@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5rem;
+  }
+  .label {
+    font-weight: bold;
+    max-width: 80%;
+    text-align: left;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+  }
+  .input {
+    border: none;
+    outline: none;
+    max-width: 80%;
+    appearance: none;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid black;
+  }
